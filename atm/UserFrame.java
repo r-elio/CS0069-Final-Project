@@ -830,7 +830,7 @@ public class UserFrame extends JFrame {
 			
 			JLabel accNo = new JLabel(String.valueOf(accountsDB.getAccount(accountNo).getAccountNo()));
 			JLabel accName = new JLabel(String.valueOf(accountsDB.getAccount(accountNo).getAccountName()));
-			JLabel balance = new JLabel(String.valueOf(accountsDB.getAccount(accountNo).getBalance()));
+			JLabel balance = new JLabel(String.format("%.2f", accountsDB.getAccount(accountNo).getBalance()));
 			
 			title.setFont(titleFont);
 			accNoLabel.setFont(labelFont);
