@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATM",
+            "request": "launch",
+            "mainClass": "ATM"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ATM",
+            "request": "launch",
+            "mainClass": "atm.ATM"
+        }
+    ]
+}
